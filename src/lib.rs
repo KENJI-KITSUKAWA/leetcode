@@ -1,5 +1,3 @@
-mod generator;
-pub fn print_random_number() {
-    let n = generator::gen_ran();
-    println!("Random u8: {}", n);
-}
+mod longest_common_prefix;
+mod palindrome_number;
+mod two_sum;
